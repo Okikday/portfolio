@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Okikiola Gbeleyi — Mobile Software Engineer</title>
+  <title>Okikiola Gbeleyi — Software Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -551,7 +551,7 @@
     /* Skills */
     .skills-layout {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       gap: 1px;
       background: var(--border);
       border: 1px solid var(--border);
@@ -938,6 +938,24 @@
       justify-content: center
     }
 
+    .contact-phone {
+      margin-top: 1.4rem;
+      font-family: var(--mono);
+      font-size: .72rem;
+      color: var(--muted);
+      letter-spacing: .04em
+    }
+
+    .contact-phone a {
+      color: var(--muted2);
+      text-decoration: none;
+      transition: color .2s
+    }
+
+    .contact-phone a:hover {
+      color: var(--accent)
+    }
+
     /* Footer */
     footer {
       padding: 1.8rem 3rem;
@@ -1074,19 +1092,19 @@
     <div class="hero-badge"><span class="badge-dot"></span>Open to opportunities · Lagos, Nigeria</div>
     <h1 class="hero-title">
       Okikiola<br>
-      <span class="l2">Gbeleyi —</span><br>
-      <span class="l3">Mobile Software Engineer.</span>
+      <span class="l2">Gbeleyi </span><br>
+      <span class="l3">Software Engineer.</span>
     </h1>
     <div class="hero-bottom">
       <p class="hero-desc">
-        Software engineer specialising in <strong>Flutter mobile development</strong> and <strong>backend
-          integration</strong>. I build apps that are fast, clean, and ship on time — from pixel-perfect UIs to robust
-        APIs.
+        Software engineer specialising in <strong>Flutter mobile development</strong> and <strong>frontend
+        engineering</strong>, backed by strong backend integration skills. I build interfaces that are fast, clean,
+        and ship on time ensuring pixel-perfect UIs to robust APIs.
       </p>
       <div class="hero-cta">
         <div class="hero-cta-btns">
           <a href="#projects" class="btn btn-primary">View work ↓</a>
-          <a href="https://drive.google.com/file/d/1CnNAz3kg6hb6FXhU0EETZqyNeFC3qNmG/view?usp=sharing" target="_blank"
+          <a href="https://drive.google.com/file/d/1RV5YuJ316r3LEOaBuitCorY0A31FQDgP/view?usp=sharing" target="_blank"
             class="btn btn-outline">Resume ↗</a>
           <a href="https://github.com/okikday" target="_blank" class="btn btn-ghost">GitHub ↗</a>
         </div>
@@ -1099,11 +1117,11 @@
   <div id="stats">
     <div class="stats-row">
       <div class="stat-item reveal">
-        <div class="stat-num">11k+</div>
+        <div class="stat-num">5k+</div>
         <div class="stat-label">cumulative downloads</div>
       </div>
       <div class="stat-item reveal d1">
-        <div class="stat-num">4+</div>
+        <div class="stat-num">3+</div>
         <div class="stat-label">Companies shipped</div>
       </div>
       <div class="stat-item reveal d2">
@@ -1124,14 +1142,15 @@
       <div class="reveal">
         <h2 class="about-heading">I craft apps<br>people <em>actually</em><br>love using.</h2>
         <p class="about-text">I'm <strong>Okikiola</strong>, a software engineer based in Lagos. I specialise in
-          Flutter, building cross-platform mobile apps that are fast, reliable, and thoughtfully designed. I care about
-          clean
-          architecture as much as I care about the end user's experience.</p>
+          Flutter, building cross-platform mobile apps that are fast, reliable, and thoughtfully designed, with a
+          strong emphasis on frontend craft. I care about clean architecture as much as I care about the end
+          user's experience.</p>
         <p class="about-text">I operate across the full spectrum: from backend logic to polished UI. I have a
-          certificate in product design, so I understand user needs and translate them into solid engineering solutions.
-        </p>
-        <p class="about-text">My open-source package <strong>custom_widgets_toolkit</strong> on pub.dev has crossed
-          <strong>11,000+ downloads</strong> used by developers worldwide.
+          certificate in product design, so I understand user needs and translate them into solid engineering
+          solutions.</p>
+        <p class="about-text">My open-source Flutter package <strong>Kickin</strong> has crossed
+          <strong>1,100+ downloads</strong>, building on its predecessor <strong>custom_widgets_toolkit</strong>
+          which has passed <strong>4,000+ downloads</strong> both used by developers worldwide.
         </p>
       </div>
       <div class="reveal d2">
@@ -1143,17 +1162,17 @@
         <div class="info-card">
           <div class="info-card-label">Cavista Hackathon 2025</div>
           <div class="info-card-title">2nd Runner-Up</div>
-          <div class="info-card-sub">Built Nurturely — AI maternal health app</div>
+          <div class="info-card-sub">Built Nurturely, an AI maternal health app</div>
         </div>
         <div class="info-card">
           <div class="info-card-label">GTBank Squad Hackathon</div>
-          <div class="info-card-title">6th Place — Top 10</div>
-          <div class="info-card-sub">SparkEdge — connecting innovators with investors</div>
+          <div class="info-card-title">6th Place (Top 10)</div>
+          <div class="info-card-sub">SparkEdge: a React web platform connecting innovators with investors</div>
         </div>
         <div class="info-card">
-          <div class="info-card-label">Revslon School of Product</div>
-          <div class="info-card-title">Product Design Certificate</div>
-          <div class="info-card-sub">4-week user-centered design program</div>
+          <div class="info-card-label">Mathematical Thinking · Coursera</div>
+          <div class="info-card-title">Algorithm Analysis Specialisation</div>
+          <div class="info-card-sub">Induction, recursion &amp; invariant principles</div>
         </div>
       </div>
     </div>
@@ -1164,46 +1183,32 @@
     <div class="section-label">Skills &amp; Stack</div>
     <div class="skills-layout reveal">
       <div class="skill-card">
-        <div class="skill-header"><span class="skill-icon">📱</span><span class="skill-name">Mobile — Flutter</span>
+        <div class="skill-header"><span class="skill-icon">💻</span><span class="skill-name">Languages</span>
         </div>
-        <p class="skill-desc">Primary craft. Cross-platform apps with pixel-perfect UIs, smooth animations, and clean
-          architecture from day one.</p>
+        <p class="skill-desc">Core languages I write day to day, across mobile, backend, and scripting.</p>
         <div class="tags">
-          <span class="tag hl">Flutter</span><span class="tag hl">Dart</span>
-          <span class="tag">GetX</span><span class="tag">Provider</span><span class="tag">Riverpod</span>
-          <span class="tag">Clean Architecture</span><span class="tag">Offline-first</span>
+          <span class="tag hl">Dart</span><span class="tag hl">Python</span><span class="tag hl">JavaScript</span>
         </div>
       </div>
       <div class="skill-card">
-        <div class="skill-header"><span class="skill-icon">⚙️</span><span class="skill-name">Backend &
-            Integration</span></div>
-        <p class="skill-desc">Strong experience integrating APIs and building scalable backends. Firebase expertise,
-          REST APIs, and real-time data synchronization.</p>
+        <div class="skill-header"><span class="skill-icon">⚙️</span><span class="skill-name">Frameworks &amp;
+            Tools</span></div>
+        <p class="skill-desc">The stack I ship production apps with, from UI down to cloud infrastructure and version
+          control.</p>
         <div class="tags">
-          <span class="tag hl">REST APIs</span><span class="tag">Firebase</span>
-          <span class="tag">Real-time sync</span><span class="tag">Python</span><span class="tag">Google Cloud</span>
+          <span class="tag hl">Flutter</span><span class="tag hl">Firebase</span>
+          <span class="tag">Google Cloud</span><span class="tag">Git</span><span class="tag">GitHub</span>
         </div>
       </div>
       <div class="skill-card">
-        <div class="skill-header"><span class="skill-icon">🗄️</span><span class="skill-name">Database &amp; Data</span>
+        <div class="skill-header"><span class="skill-icon">🧠</span><span class="skill-name">Concepts</span>
         </div>
-        <p class="skill-desc">Firebase-first backend with real-time sync, auth, and cloud functions — plus strong REST
-          API integration skills.</p>
+        <p class="skill-desc">The engineering fundamentals behind every feature; how I reason about structure and
+          speed.</p>
         <div class="tags">
-          <span class="tag hl">Firebase</span><span class="tag">Firestore</span>
-          <span class="tag">REST APIs</span><span class="tag">Java</span><span class="tag">Python</span><span
-            class="tag">C</span>
-        </div>
-      </div>
-      <div class="skill-card">
-        <div class="skill-header"><span class="skill-icon">🛠️</span><span class="skill-name">Tools &amp; Design</span>
-        </div>
-        <p class="skill-desc">Full workflow — Figma to Flutter, Git to production. UI/UX background means I deliver more
-          than just working code.</p>
-        <div class="tags">
-          <span class="tag">Figma</span><span class="tag">Git / GitHub</span>
-          <span class="tag">Android Studio</span><span class="tag">VS Code</span>
-          <span class="tag">UI/UX Design</span><span class="tag">Responsive layouts</span>
+          <span class="tag hl">Data Structures &amp; Algorithms</span><span class="tag">OOP</span>
+          <span class="tag">Clean Architecture</span><span class="tag">REST APIs</span><span
+            class="tag">Performance Optimization</span>
         </div>
       </div>
     </div>
@@ -1214,55 +1219,41 @@
     <div class="section-label">Work Experience</div>
     <div class="exp-list">
       <div class="exp-item reveal">
-        <div class="exp-period">Sept 2025 – Mar 2026</div>
+        <div class="exp-period">Sept 2025 – June 2026</div>
         <div>
-          <div class="exp-role">Flutter Software Engineer</div>
+          <div class="exp-role">Software Engineer Intern</div>
           <div class="exp-company">ScholarArk · Lagos, Nigeria</div>
           <ul class="exp-bullets">
-            <li>Engineered scalable Flutter features using Clean Architecture, cutting feature development time by
-              <strong>18%</strong>.
-            </li>
-            <li>Built modular UI components that streamlined collaboration across design and backend teams.</li>
+            <li>Reduced feature development time by <strong>20%</strong> by engineering scalable features using
+              Clean Architecture.</li>
+            <li>Simplified cross-team collaboration with designers and backend engineers by developing and deploying
+              modular components, improving performance and rendering speed.</li>
           </ul>
         </div>
       </div>
       <div class="exp-item reveal d1">
-        <div class="exp-period">June – Aug 2025</div>
+        <div class="exp-period">June 2025 – Aug 2025</div>
         <div>
-          <div class="exp-role">Flutter Developer</div>
+          <div class="exp-role">Software Engineer Intern</div>
           <div class="exp-company">Fixeroni · Lagos, Nigeria</div>
           <ul class="exp-bullets">
-            <li>Translated Figma designs into pixel-perfect, responsive UIs with <strong>98% design fidelity</strong>
-              across device sizes.</li>
-            <li>Architected real-time Firebase Firestore sync, reducing data latency by <strong>30%</strong> for core
-              features.</li>
-            <li>Decreased time-to-production by <strong>15%</strong> through optimised development workflows.</li>
+            <li>Reduced data latency by almost <strong>40%</strong> across core user-facing features by architecting
+              real-time data synchronization pipelines using Firebase Firestore.</li>
+            <li>Decreased time-to-production by <strong>25%</strong> by accelerating feature delivery and
+              optimising development workflows.</li>
           </ul>
         </div>
       </div>
       <div class="exp-item reveal d2">
-        <div class="exp-period">Feb – May 2025</div>
+        <div class="exp-period">Feb 2025 – May 2025</div>
         <div>
-          <div class="exp-role">Flutter Developer Intern</div>
+          <div class="exp-role">Software Engineer Intern</div>
           <div class="exp-company">MoneySmith · Lagos, Nigeria <span style="color:var(--muted);font-size:.7rem;">(Play
               Store)</span></div>
           <ul class="exp-bullets">
-            <li>Increased feature delivery velocity by <strong>25%</strong> working alongside senior engineers.</li>
-            <li>Reduced widget build times by <strong>45%</strong> via Provider state management and responsive UI
-              patterns.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="exp-item reveal d3">
-        <div class="exp-period">Oct 2023 – Aug 2024</div>
-        <div>
-          <div class="exp-role">Flutter Developer</div>
-          <div class="exp-company">Schoolar.IO · Lagos, Nigeria</div>
-          <ul class="exp-bullets">
-            <li>Designed modular Flutter architecture reducing feature build time by <strong>20 hours per
-                cycle</strong>.</li>
-            <li>Refactored legacy state management to Provider, eliminating <strong>50% of state-related bugs</strong>.
-            </li>
+            <li>Reduced client-side rendering times by <strong>30%</strong> by optimizing memory footprint.</li>
+            <li>Increased feature delivery speed by <strong>10%</strong> through improving codebase architecture in
+              collaboration with senior developers.</li>
           </ul>
         </div>
       </div>
@@ -1274,37 +1265,17 @@
     <div class="section-label">Projects</div>
     <div class="projects-list">
 
-      <a class="proj-item reveal"
-        href="https://github.com/dev-xero/cavista-2026-team-lightx/tree/main/mobile-app/light_x" target="_blank">
+      <a class="proj-item reveal" href="https://github.com/okikday/slidesync" target="_blank">
         <div class="proj-num">01</div>
-        <div class="proj-body">
-          <div class="proj-name">PulseAI</div>
-          <div class="proj-meta">
-            <span class="pbadge pb-green">Health Analytics</span>
-            <span class="pbadge pb-gray">Flutter</span>
-            <span class="pbadge pb-gray">ML</span>
-          </div>
-          <p class="proj-desc">Innovative health monitoring app using Bluetooth connectivity to paired smartwatches.
-            Extracts real-time health data and combines it with facial recognition ML to analyze hypertensive levels and
-            cardiovascular risk.</p>
-        </div>
-        <div class="proj-right">
-          <div class="proj-stack">Flutter · Riverpod<br>ML · Bluetooth</div>
-          <div class="proj-arrow">↗</div>
-        </div>
-      </a>
-
-      <a class="proj-item reveal d1" href="https://github.com/okikday/slidesync" target="_blank">
-        <div class="proj-num">02</div>
         <div class="proj-body">
           <div class="proj-name">SlideSync</div>
           <div class="proj-meta">
-            <span class="pbadge pb-green">Reading Assistant</span>
+            <span class="pbadge pb-green">Open Source Study App</span>
             <span class="pbadge pb-gray">Flutter</span>
             <span class="pbadge pb-gray">Firebase</span>
           </div>
-          <p class="proj-desc">Mobile reading assistant with real-time document parsing and student progress tracking.
-            Supports offline functionality with local caching.</p>
+          <p class="proj-desc">AI-powered mobile reading assistant with real-time document parsing and offline
+            support. Built with Flutter, Firebase, and Riverpod.</p>
         </div>
         <div class="proj-right">
           <div class="proj-stack">Flutter · Firebase<br>Riverpod · AI</div>
@@ -1312,17 +1283,34 @@
         </div>
       </a>
 
+      <div class="proj-item reveal d1">
+        <div class="proj-num">02</div>
+        <div class="proj-body">
+          <div class="proj-name">Saabi Plus</div>
+          <div class="proj-meta">
+            <span class="pbadge pb-purple">Hackathon Team Project</span>
+            <span class="pbadge pb-gray">Fintech</span>
+          </div>
+          <p class="proj-desc">Banking interface for informal traders, using Natural Language
+            Processing and virtual account APIs with alternative credit scoring logic engineered to evaluate
+            real-time transaction data.</p>
+        </div>
+        <div class="proj-right">
+          <div class="proj-stack">NLP · REST APIs<br>Virtual Accounts</div>
+        </div>
+      </div>
+
       <a class="proj-item reveal d2" href="https://pub.dev/packages/custom_widgets_toolkit" target="_blank">
         <div class="proj-num">03</div>
         <div class="proj-body">
-          <div class="proj-name">custom_widgets_toolkit</div>
+          <div class="proj-name">Kickin</div>
           <div class="proj-meta">
-            <span class="pbadge pb-purple">11k+ downloads</span>
+            <span class="pbadge pb-purple">1.1k+ downloads</span>
             <span class="pbadge pb-gray">pub.dev</span>
             <span class="pbadge pb-gray">Open Source</span>
           </div>
-          <p class="proj-desc">Flutter package on pub.dev — reusable widget library downloaded by over 11,000 developers
-            worldwide.</p>
+          <p class="proj-desc">Flutter package for streamlining development by abstracting boilerplate code.
+            Successor to custom_widgets_toolkit, which has passed 4,000+ downloads in its own right.</p>
         </div>
         <div class="proj-right">
           <div class="proj-stack">Dart · Flutter<br>pub.dev</div>
@@ -1330,42 +1318,8 @@
         </div>
       </a>
 
-      <a class="proj-item reveal d2" href="https://github.com/okikday/cartify_app" target="_blank">
-        <div class="proj-num">03</div>
-        <div class="proj-body">
-          <div class="proj-name">Cartify</div>
-          <div class="proj-meta">
-            <span class="pbadge pb-gray">Full-stack</span>
-            <span class="pbadge pb-gray">E-commerce</span>
-          </div>
-          <p class="proj-desc">Full-stack mobile e-commerce platform — admin management, cart, personalised
-            recommendations, and real-time inventory sync.</p>
-        </div>
-        <div class="proj-right">
-          <div class="proj-stack">Flutter · Riverpod<br>Firebase · REST</div>
-          <div class="proj-arrow">↗</div>
-        </div>
-      </a>
-
-      <a class="proj-item reveal d3" href="https://github.com/Okikday/tic_tac_toe" target="_blank">
+      <a class="proj-item reveal d3" href="https://github.com/okikday" target="_blank">
         <div class="proj-num">04</div>
-        <div class="proj-body">
-          <div class="proj-name">TicTacToe Multiplayer</div>
-          <div class="proj-meta">
-            <span class="pbadge pb-gray">Real-time</span>
-            <span class="pbadge pb-gray">Multiplayer</span>
-          </div>
-          <p class="proj-desc">Real-time player-vs-player game using Firebase. Adaptive light/dark theme,
-            cross-platform.</p>
-        </div>
-        <div class="proj-right">
-          <div class="proj-stack">Flutter · Firebase<br>Provider</div>
-          <div class="proj-arrow">↗</div>
-        </div>
-      </a>
-
-      <a class="proj-item reveal" href="https://github.com/okikday" target="_blank">
-        <div class="proj-num">05</div>
         <div class="proj-body">
           <div class="proj-name">More on GitHub →</div>
           <p class="proj-desc">Additional projects, experiments, and contributions at github.com/okikday</p>
@@ -1389,29 +1343,18 @@
       </div>
       <div class="ach-card reveal d1">
         <div class="ach-title">GTBank Squad Hackathon</div>
-        <p class="ach-sub"><strong>6th Place — Top 10.</strong> Spearheaded <strong>SparkEdge</strong>, a platform
-          connecting innovators with investors and funding opportunities.</p>
+        <p class="ach-sub"><strong>6th Place (Top 10).</strong> Spearheaded <strong>SparkEdge</strong>, a
+          React-built web platform connecting innovators with investors and funding opportunities.</p>
       </div>
       <div class="ach-card reveal d2">
-        <div class="ach-title">11k+ pub.dev Downloads</div>
-        <p class="ach-sub"><strong>custom_widgets_toolkit</strong> — open-source Flutter package downloaded over 11,000
-          times by the global dev community.</p>
+        <div class="ach-title">1.1k+ Downloads on Kickin</div>
+        <p class="ach-sub">Flutter package that streamlines development by abstracting boilerplate code. Successor
+          to <strong>custom_widgets_toolkit</strong>, which has passed <strong>4,000+ downloads</strong>.</p>
       </div>
       <div class="ach-card reveal d3">
-        <div class="ach-title">Product Design Certificate</div>
-        <p class="ach-sub">Completed <strong>Revslon School of Product</strong>'s 4-week program in user-centered design
-          and product thinking.</p>
-      </div>
-      <div class="ach-card reveal">
-        <div class="ach-title">Mathematical Thinking · Coursera</div>
-        <p class="ach-sub">Completed specialisation mastering <strong>algorithm analysis</strong> using induction,
-          recursion, and invariant principles.</p>
-      </div>
-      <div class="ach-card reveal d1">
-        <div class="ach-title">Play Store Contributions</div>
-        <p class="ach-sub">Contributed to multiple production apps including <strong>MoneySmith</strong>,
-          <strong>ScholarArk</strong>, and others. Real products, real users.
-        </p>
+        <div class="ach-title">Mathematical Thinking in Computer Science</div>
+        <p class="ach-sub">Mastered <strong>algorithm analysis</strong> using induction, recursion, and invariant
+          principles.</p>
       </div>
     </div>
   </section>
@@ -1421,16 +1364,17 @@
     <div class="reveal">
       <div class="section-label" style="justify-content:center">Get in touch</div>
       <h2 class="contact-heading">Let's build<br><em>something</em><br>great.</h2>
-      <p class="contact-sub">Open to full-time roles, freelance projects, and interesting collabs. Flutter, AI, or
-        anything exciting — reach out.</p>
+      <p class="contact-sub">Open to full-time roles, freelance projects, and interesting collabs. Flutter, frontend,
+        or anything exciting.</p>
       <div class="contact-btns">
         <a href="mailto:okikday@gmail.com" class="btn btn-primary">Send an email →</a>
         <a href="https://github.com/okikday" target="_blank" class="btn btn-outline">GitHub ↗</a>
-        <a href="https://drive.google.com/file/d/1CnNAz3kg6hb6FXhU0EETZqyNeFC3qNmG/view?usp=sharing" target="_blank"
+        <a href="https://drive.google.com/file/d/1RV5YuJ316r3LEOaBuitCorY0A31FQDgP/view?usp=sharing" target="_blank"
           class="btn btn-outline">Resume ↗</a>
         <a href="https://linkedin.com/in/okikiola-gbeleyi-a47217245" target="_blank" class="btn btn-ghost">LinkedIn
           ↗</a>
       </div>
+      <p class="contact-phone">Or call <a href="tel:+2349122277713">+234 912 227 7713</a></p>
     </div>
   </section>
 
