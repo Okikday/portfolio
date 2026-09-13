@@ -569,6 +569,42 @@
       gap: 0.7rem;
     }
 
+    .see-all-projects {
+      display: flex;
+      justify-content: center;
+      margin-top: 3.5rem;
+    }
+
+    .see-all-btn {
+      font-family: var(--font-display);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #ffffff;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.9rem 2.2rem;
+      border: 1px solid var(--border-light);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.02);
+      transition: all 0.25s var(--spring);
+    }
+
+    .see-all-btn:hover {
+      border-color: #ffffff;
+      background: #ffffff;
+      color: #000000;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(255, 255, 255, 0.16);
+    }
+
+    .see-all-btn:active {
+      transform: scale(0.95);
+    }
+
     /* Experience Timeline - Clean & Simplistic */
     .exp-list {
       display: flex;
@@ -1148,6 +1184,13 @@
             </div>
           </div>
 
+        </div>
+
+        <div class="see-all-projects reveal">
+          <a href="https://github.com/okikday?tab=repositories" target="_blank" rel="noopener noreferrer"
+            class="see-all-btn btn">
+            See all projects on GitHub <i class="fa-brands fa-github"></i>
+          </a>
         </div>
       </div>
     </section>
